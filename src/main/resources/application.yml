@@ -1,0 +1,22 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /api/fixture
+# Configuraci?n de conexi?n a MongoDB
+spring:
+  application:
+    name: fixture-app
+  data:
+    mongodb:
+      database: "fixture"
+
+# Configuraci?n adicional (opcional)
+# Para configurar otras propiedades de MongoDB, puedes agregarlas aqu?
+# Por ejemplo:
+# spring.data.mongodb.authentication-database=admin
+# spring.data.mongodb.minConnectionsPerHost=5
+# spring.data.mongodb.maxConnectionsPerHost=10
+# spring.data.mongodb.socketTimeout=2000
+# spring.data.mongodb.heartbeatFrequency=5000
+
+
